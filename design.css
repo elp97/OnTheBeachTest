@@ -1,0 +1,167 @@
+.main {
+    background-image: url("./assets/background.png");
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+    min-width: 300px;
+    float: left;
+}
+
+.sort-btn {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: #17317f;
+    height: 50px;
+    width: 200px;
+    text-align: left;
+    border-width: 2px 0px 0px 0px;
+    border-color: #17317f;
+}
+
+.sort-btn:hover {
+    cursor: pointer;
+}
+
+.active-sort-btn {
+    background-color: #17317f;
+    color: white;
+}
+
+.sort-icon {
+    color: grey;
+    padding-inline-end: 10px;
+    margin-inline-start: auto;
+}
+
+.active-sort-btn .sort-icon {
+    color: white;
+}
+
+.sort-btn-text {
+    width: max-content;
+    padding-inline-start: 10px;
+    font-size: 14px;
+}
+
+#hotel-section {
+   display: inline-block;
+}
+
+.hotel-item {
+    width: 800px;
+}
+
+.hotel-details {
+    background-color: white;
+    display: inline-block;
+    height: 280px;
+    width: calc(100% - 500px);
+} 
+
+.hotel-details p {
+   padding: 0px 10px;
+}
+
+details {
+    background-color: white;
+}
+
+.hotel-name {
+    font-size: 1em;
+    font-weight: bold;
+    color: #17317f;
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+}
+
+.hotel-location {
+   opacity: 0.5;
+   margin-block-start: 5px;
+   margin-block-end: 0px;
+}
+
+.hotel-stay-details {
+    margin: 0px;
+}
+
+.hotel-image {
+    display: inline-block;
+    vertical-align: top;
+    height: 280px;
+    width: 500px;
+}
+
+.price-box {
+    background-color: #fedc07;
+    height: 60px;
+    text-align: center;
+    font-weight: bold;
+    width: 250px;
+    border: 0px;
+    color: #17317f;
+    display: block;
+    margin: auto;
+    margin-block-start: 10px;
+}
+
+.price_book_now {
+    margin: 5px;
+}
+
+.price_box_price {
+    margin: 0px;
+}
+
+.price-box:hover {
+    cursor: pointer;
+}
+
+.hotel-description-details {
+    width: max-content;
+    background-color: transparent;
+    position: relative;
+    bottom: 34px;
+    cursor: pointer;
+}
+
+.hotel-summary {
+    display: flex;
+    align-items: center;
+    white-space: pre-wrap;
+    width: max-content;
+    background-color: white;
+    color: #17317f;
+    padding: 5px 10px;
+} 
+
+.hotel-description-article {
+    width: 800px;
+    background-color: white;
+}
+
+.hotel-description-article-overview {
+    color: #17317f;
+    font-weight: bold;
+    margin: 0px;
+    padding: 5px 10px;
+}
+
+.hotel-description-article-text {
+    margin: 0px;
+    padding: 5px 10px;
+}
+
+.hotel-summary::marker {
+    content: "";
+}
+
+.rating-icon {
+    color: #fedc07;
+}
+
+.details-icon {
+    vertical-align: bottom;
+}
